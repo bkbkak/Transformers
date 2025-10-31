@@ -1,0 +1,5 @@
+{
+    "model_name": "transformer_L6_D256_H4_pos_seed42_20251030_105135_epoch015_checkloss1.7382",
+    "average_bleu": 0.27089641792519503,
+    "total_samples": 1568
+}

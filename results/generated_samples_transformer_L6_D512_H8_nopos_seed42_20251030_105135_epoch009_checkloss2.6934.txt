@@ -1,0 +1,100 @@
+--- Sample ---
+Ref: Vor einigen Jahren, hier bei TED, stellte Peter Skillman einen Design-Wettbewerb namens "Die Marshmallow-Herausforderung" vor.
+Gen: Vor 30 Jahren hat sich der Skalmann Powal, der TED-Bauerkomal, der hier bei TED vorgestellt hat, eine Herausforderung der Skowissenschaft.
+BLEU: 0.0345
+
+--- Sample ---
+Ref: Die Idee ist ziemlich einfach. Vierer-teams müssen die größtmögliche freistehende Struktur mit 20 Spaghetti, ca. 1m Klebeband, ca. 1m Faden und einem Marshmallow bauen.
+Gen: Und die Idee ist, dass man eine ziemlich einfache Idee hat: "Taghetti-Sauce" von Teams, die aus einem der vier- bis 20-Jagh-Bau-Stau-Anlagen besteht, und eine sehr einfache Struktur der "Taghetti-Sauce"-Staube.
+BLEU: 0.0491
+
+--- Sample ---
+Ref: Der Marshmallow muss oben drauf sein.
+Gen: Die Bären müssen über die Spitze der Mall hüpfen.
+BLEU: 0.0170
+
+--- Sample ---
+Ref: Und, obwohl es wirklich einfach scheint, ist es tatsächlich richtig schwer, weil es Leute drängt sehr schnell zusammenzuarbeiten.
+Gen: Und obwohl es wirklich schwierig ist, Menschen zu arbeiten, scheinen sie ziemlich schnell zu arbeiten.
+BLEU: 0.0484
+
+--- Sample ---
+Ref: Und so dachte ich, dass dies eine interessante Idee ist und ich habe es in einen Design-Workshop verwandelt.
+Gen: Und so dachte ich mir, es war eine interessante Idee, also dachte ich, es funktioniert in ein Design-Design-Design.
+BLEU: 0.1562
+
+--- Sample ---
+Ref: Es war ein riesiger Erfolg.
+Gen: Und es war ein riesiger Erfolg.
+BLEU: 0.6804
+
+--- Sample ---
+Ref: Seitdem habe ich ungefähr 70 Workshops weltweit durchgeführt, mit Studenten, Entwicklern und Architekten, sogar mit CTOs der Fortune-50-Unternehmen und da ist etwas an dieser Aufgabe, was tiefe Eindrücke in die Natur der Zusammenarbeit ermöglicht und ich möchte einige davon mit Ihnen teilen.
+Gen: Und dann gibt es etwas, das ich mit den Architekten und den Architekten zusammengearbeitet habe, und ich möchte Ihnen etwas über die Welt erzählen, die ich mit den Architekten und den Architekten von Fort COTOTs und einigen der Schüler, die über die Natur von ungefähr 70ern geteilt haben, sogar mit weniger als 50 Architekten.
+BLEU: 0.0363
+
+--- Sample ---
+Ref: Normalerweise starten die meisten Leute sich selbst bezüglich der Aufgabe zu orientieren.
+Gen: Normalerweise beginnen die Leute, sich selbst zu beteiligen oder sich selbst zu beziehen.
+BLEU: 0.0713
+
+--- Sample ---
+Ref: Sie reden darüber, sie überlegen, wie es aussehen wird, sie rangeln um Macht,
+Gen: Sie reden darüber nach, wie sie über die Macht reden, sie suchen nach, was sie suchen.
+BLEU: 0.0829
+
+--- Sample ---
+Ref: dann investieren Sie ein wenig Zeit in Planung und Organisation. Sie skizzieren und legen Spaghetti aus.
+Gen: Dann nehmen sie Petchetten und sammeln Ski, sie organisieren Zeit und ziehen sie aus.
+BLEU: 0.0211
+
+--- Sample ---
+Ref: Sie investieren einen Großteil ihrer Zeit in den Zusammenbau ständig wachsender Strukturen
+Gen: Sie verbringen ihre Zeit in die Mehrheit der Stöcken, indem sie ihre Stöcke ausgeben.
+BLEU: 0.0203
+
+--- Sample ---
+Ref: und schließlich, kurz bevor sie keine Zeit mehr haben, nimmt jemand den Marshmallow und sie setzen ihn behutsam auf die Spitze, treten einen Schritt zurück und "Ta-da"! bewundern sie ihre Arbeit.
+Gen: Und dann, wenn sie es aus dem Pullovernment herausqueren, dann stecken sie sich an und sie arbeiten, und dann holen sie sich an. Und schließlich, dann nimmt jemand die Zeit zurück und sie stecken sich an.
+BLEU: 0.0181
+
+--- Sample ---
+Ref: Was aber dann, fast immer, passiert ist, dass das "ta-da" zu einem "uh-oh" wird, weil das Gewicht des Marshmallows bewirkt, dass die ganze Sache sich verbiegt und einstürzt.
+Gen: Aber das, was passiert, ist, dass die meisten Mall-Bauern die Struktur der Mall verursachen, und das ist, was "huhuhuhuhuhuhuh" zu "huhuhuhuhuhuhuhuhuhuhuhuhuh" und "huhuhuhuhuhuhuhuhuhuhuhuhuhuhuhuhuhuhuh" zu "huhuhuhuhuhuhuhuhuhuhuhuhuhuhuhuh
+BLEU: 0.0208
+
+--- Sample ---
+Ref: Es gibt eine Reihe von Leuten, die viel mehr "uh-oh"-Momente haben als andere, und unter den Schlechtesten sind frische BWL-Absolventen.
+Gen: Es gibt viele Menschen, die mehr als die schlimmsten Momente der Schulabschlusszeit sind, und es gibt viele andere, die viel mehr als die schlimmste Zahl der Menschen sind.
+BLEU: 0.0948
+
+--- Sample ---
+Ref: Sie lügen, sie schummeln, sie sind verwirrt und produzieren wirklich dürftige Gebilde.
+Gen: Sie produzieren Lügen, sie werden ausgeschlossen, sie werden ausgeschlossen und sie werden wirklich latscht.
+BLEU: 0.0600
+
+--- Sample ---
+Ref: Und natürlich gibt es auch Teams die viel mehr "ta-da"-Gebilde haben und unter den Besten sind frische Absolventen des Kindergartens.
+Gen: Und natürlich gibt es viele aktuelle Strukturen, die mehr als die besten Teams haben, und die sind natürlich die besten, die "da-dates" und "da-dates".
+BLEU: 0.0919
+
+--- Sample ---
+Ref: Und das ist ziemlich erstaunlich.
+Gen: Und es ist ziemlich erstaunlich.
+BLEU: 0.5373
+
+--- Sample ---
+Ref: Wie uns Peter erzählte produzieren sie nicht nur die höchsten Türme, sondern auch die interessantesten Strukturen von allen.
+Gen: Wie Peter erklärt, sie produzieren sie nicht nur die interessantesten Strukturen, sondern sie produzieren auch die interessantesten Strukturen.
+BLEU: 0.3531
+
+--- Sample ---
+Ref: Was sie vielleicht fragen werden ist: Wie kommt das? Warum? Was ist mit denen?
+Gen: Die Frage ist also: Warum? Wie geht es Ihnen? Was wollen Sie davon?
+BLEU: 0.0386
+
+--- Sample ---
+Ref: Und Peter erzählt: "Keines der Kinder investiert Zeit darin Chef der Spaghetti GmbH zu sein".
+Gen: In Spaghetti, der Geschäftsführer von Spaghetti-OP, versucht er, die Kinder zu sagen, dass keiner von ihnen Zeit verbringt.
+BLEU: 0.1080
+

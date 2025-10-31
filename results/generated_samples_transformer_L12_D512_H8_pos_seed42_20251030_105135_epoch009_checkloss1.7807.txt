@@ -1,0 +1,100 @@
+--- Sample ---
+Ref: Vor einigen Jahren, hier bei TED, stellte Peter Skillman einen Design-Wettbewerb namens "Die Marshmallow-Herausforderung" vor.
+Gen: Vor einigen Jahren hat Peter Skillman eine Design-Organisation eingeführt, die die "Marshmallow"- Herausforderung genannt wird.
+BLEU: 0.2093
+
+--- Sample ---
+Ref: Die Idee ist ziemlich einfach. Vierer-teams müssen die größtmögliche freistehende Struktur mit 20 Spaghetti, ca. 1m Klebeband, ca. 1m Faden und einem Marshmallow bauen.
+Gen: Die Idee ist ziemlich einfach: Teams von vier sollen die größte freistruktur aus 20 Sticks Spaghetti bauen, ein Yard Tonband, ein Milchstad, ein Nagel und eine Marshmallow.
+BLEU: 0.2214
+
+--- Sample ---
+Ref: Der Marshmallow muss oben drauf sein.
+Gen: Die Marshmallow muss oben sein.
+BLEU: 0.5789
+
+--- Sample ---
+Ref: Und, obwohl es wirklich einfach scheint, ist es tatsächlich richtig schwer, weil es Leute drängt sehr schnell zusammenzuarbeiten.
+Gen: Und obwohl es ganz einfach scheint, ist es tatsächlich ziemlich schwer, weil es Menschen dazu bringt, sehr schnell zusammenzuarbeiten.
+BLEU: 0.5041
+
+--- Sample ---
+Ref: Und so dachte ich, dass dies eine interessante Idee ist und ich habe es in einen Design-Workshop verwandelt.
+Gen: Und so dachte ich, das wäre eine interessante Idee, und ich habe sie in eine Design-Einstellung eingraviert.
+BLEU: 0.2379
+
+--- Sample ---
+Ref: Es war ein riesiger Erfolg.
+Gen: Und es war ein großer Erfolg.
+BLEU: 0.0988
+
+--- Sample ---
+Ref: Seitdem habe ich ungefähr 70 Workshops weltweit durchgeführt, mit Studenten, Entwicklern und Architekten, sogar mit CTOs der Fortune-50-Unternehmen und da ist etwas an dieser Aufgabe, was tiefe Eindrücke in die Natur der Zusammenarbeit ermöglicht und ich möchte einige davon mit Ihnen teilen.
+Gen: Seitdem habe ich etwa 70 Design-Einheiten in aller Welt mit Studenten und Designern und Architekten durchgeführt, sogar die CTOs der 50, und es gibt etwas über diese Übung, die sehr viel weniger über die Natur der Zusammenarbeit enthält, und ich möchte Ihnen einige davon mitteilen.
+BLEU: 0.2033
+
+--- Sample ---
+Ref: Normalerweise starten die meisten Leute sich selbst bezüglich der Aufgabe zu orientieren.
+Gen: Normalerweise beginnen die meisten Leute sich selbst an die Aufgabe zu orientieren.
+BLEU: 0.4804
+
+--- Sample ---
+Ref: Sie reden darüber, sie überlegen, wie es aussehen wird, sie rangeln um Macht,
+Gen: Sie reden darüber, sie finden heraus, wie es aussieht, sie stören um Macht.
+BLEU: 0.2860
+
+--- Sample ---
+Ref: dann investieren Sie ein wenig Zeit in Planung und Organisation. Sie skizzieren und legen Spaghetti aus.
+Gen: Dann verbringen sie Zeitplanung, Organisieren, Skizzen und legen Spaghetti auf.
+BLEU: 0.2569
+
+--- Sample ---
+Ref: Sie investieren einen Großteil ihrer Zeit in den Zusammenbau ständig wachsender Strukturen
+Gen: Sie verbringen die Mehrheit ihrer Zeit damit, die Stäbe in immer weiter wachsende Strukturen zu schieben.
+BLEU: 0.0272
+
+--- Sample ---
+Ref: und schließlich, kurz bevor sie keine Zeit mehr haben, nimmt jemand den Marshmallow und sie setzen ihn behutsam auf die Spitze, treten einen Schritt zurück und "Ta-da"! bewundern sie ihre Arbeit.
+Gen: Und schließlich, während sie aus der Zeit rausgehen, nimmt jemand die Marshmallow, und dann setzte sie sie an die Spitze und dann stehen sie wieder auf und -- -- sie heiraten ihre Arbeit.
+BLEU: 0.1409
+
+--- Sample ---
+Ref: Was aber dann, fast immer, passiert ist, dass das "ta-da" zu einem "uh-oh" wird, weil das Gewicht des Marshmallows bewirkt, dass die ganze Sache sich verbiegt und einstürzt.
+Gen: Aber was wirklich passiert, ist, dass die meiste Zeit der "Mutter-da" sich zu einem "hoh-oh" verwandelt, denn das Gewicht der Marshmallow verursacht die gesamte Struktur, die den Kollaps und Kollaps verursacht.
+BLEU: 0.1665
+
+--- Sample ---
+Ref: Es gibt eine Reihe von Leuten, die viel mehr "uh-oh"-Momente haben als andere, und unter den Schlechtesten sind frische BWL-Absolventen.
+Gen: Es gibt viele Leute, die viele "Hah-oh"-Momente haben als andere, und unter den schlimmsten sind die Absolventen der Business School.
+BLEU: 0.3659
+
+--- Sample ---
+Ref: Sie lügen, sie schummeln, sie sind verwirrt und produzieren wirklich dürftige Gebilde.
+Gen: Sie lügen, sie kauen, sie werden zerlegt und produzieren wirklich lachende Strukturen.
+BLEU: 0.2218
+
+--- Sample ---
+Ref: Und natürlich gibt es auch Teams die viel mehr "ta-da"-Gebilde haben und unter den Besten sind frische Absolventen des Kindergartens.
+Gen: Und natürlich gibt es Teams, die viele "Durchschnitt"-Strukturen haben, und unter den besten sind die Absolventen der Kindergarten.
+BLEU: 0.1853
+
+--- Sample ---
+Ref: Und das ist ziemlich erstaunlich.
+Gen: Und es ist ziemlich verblüffend.
+BLEU: 0.0531
+
+--- Sample ---
+Ref: Wie uns Peter erzählte produzieren sie nicht nur die höchsten Türme, sondern auch die interessantesten Strukturen von allen.
+Gen: Wie Peter uns sagt, produzieren sie nicht nur die größten Strukturen, sondern auch die interessantesten Strukturen von allen.
+BLEU: 0.5868
+
+--- Sample ---
+Ref: Was sie vielleicht fragen werden ist: Wie kommt das? Warum? Was ist mit denen?
+Gen: Die Frage, die Sie stellen möchten, ist: Wie kommt das? Warum? Was ist es mit ihnen?
+BLEU: 0.4308
+
+--- Sample ---
+Ref: Und Peter erzählt: "Keines der Kinder investiert Zeit darin Chef der Spaghetti GmbH zu sein".
+Gen: Und Peter sagt gerne, dass keiner der Kinder, der jedes Mal versucht, CEO von Spaghetti, Inc. zu sein.
+BLEU: 0.1822
+

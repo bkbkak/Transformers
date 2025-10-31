@@ -1,0 +1,100 @@
+--- Sample ---
+Ref: Vor einigen Jahren, hier bei TED, stellte Peter Skillman einen Design-Wettbewerb namens "Die Marshmallow-Herausforderung" vor.
+Gen: Vor einigen Jahren hat Peter Skillman eine Design-Herausforderung mit dem Namen "Marshmallow-Forder" vorgestellt.
+BLEU: 0.3756
+
+--- Sample ---
+Ref: Die Idee ist ziemlich einfach. Vierer-teams müssen die größtmögliche freistehende Struktur mit 20 Spaghetti, ca. 1m Klebeband, ca. 1m Faden und einem Marshmallow bauen.
+Gen: Und die Idee ist ziemlich einfach: Teams von vier müssen die größte, freie Konstruktion aus 20 Sticks von Spaghetti bauen, ein Kleidung, ein Bart von String und Marshallow.
+BLEU: 0.1503
+
+--- Sample ---
+Ref: Der Marshmallow muss oben drauf sein.
+Gen: Die Marshmallow muss oben sein.
+BLEU: 0.5789
+
+--- Sample ---
+Ref: Und, obwohl es wirklich einfach scheint, ist es tatsächlich richtig schwer, weil es Leute drängt sehr schnell zusammenzuarbeiten.
+Gen: Und obwohl es sehr einfach erscheint, ist es ziemlich schwierig, weil es Menschen macht, schnell zusammenzuarbeiten.
+BLEU: 0.2670
+
+--- Sample ---
+Ref: Und so dachte ich, dass dies eine interessante Idee ist und ich habe es in einen Design-Workshop verwandelt.
+Gen: Also dachte ich, es war eine interessante Idee, und ich führte sie in einen Design-Workshop ein.
+BLEU: 0.3947
+
+--- Sample ---
+Ref: Es war ein riesiger Erfolg.
+Gen: Und es war ein großer Erfolg.
+BLEU: 0.0988
+
+--- Sample ---
+Ref: Seitdem habe ich ungefähr 70 Workshops weltweit durchgeführt, mit Studenten, Entwicklern und Architekten, sogar mit CTOs der Fortune-50-Unternehmen und da ist etwas an dieser Aufgabe, was tiefe Eindrücke in die Natur der Zusammenarbeit ermöglicht und ich möchte einige davon mit Ihnen teilen.
+Gen: Und seitdem habe ich ungefähr 70 Design-Workshops der Welt mit Studenten und Designern und Architekten zusammengeführt, sogar die CTOs der Fortune 50, und es gibt so etwas über diese Übung, die sehr tiefe Lektionen über die Natur der Zusammenarbeit hervorruft, und ich möchte Ihnen davon erzählen.
+BLEU: 0.2536
+
+--- Sample ---
+Ref: Normalerweise starten die meisten Leute sich selbst bezüglich der Aufgabe zu orientieren.
+Gen: Normalerweise beginnen die meisten Menschen sich mit der Aufgabe selbst zu beschäftigen.
+BLEU: 0.0780
+
+--- Sample ---
+Ref: Sie reden darüber, sie überlegen, wie es aussehen wird, sie rangeln um Macht,
+Gen: Sie sprechen darüber, sie finden heraus, wie es aussehen wird, sie spülen sich gegen Macht.
+BLEU: 0.3385
+
+--- Sample ---
+Ref: dann investieren Sie ein wenig Zeit in Planung und Organisation. Sie skizzieren und legen Spaghetti aus.
+Gen: Dann verbringen sie eine Zeitplanung, organisierend, skizzieren und legen Spaghetti ab.
+BLEU: 0.3840
+
+--- Sample ---
+Ref: Sie investieren einen Großteil ihrer Zeit in den Zusammenbau ständig wachsender Strukturen
+Gen: Sie verbringen die Mehrheit ihrer Zeit damit, die Sticks in immer wachsende Strukturen einzubauen.
+BLEU: 0.0299
+
+--- Sample ---
+Ref: und schließlich, kurz bevor sie keine Zeit mehr haben, nimmt jemand den Marshmallow und sie setzen ihn behutsam auf die Spitze, treten einen Schritt zurück und "Ta-da"! bewundern sie ihre Arbeit.
+Gen: Und dann, wie sie aus der Zeit laufen, nimmt jemand die Marshmallow raus und dann legt sie sie oben, und dann stehen sie zurück und – und da taucht sie da in Y-J-da! – sie bewundern ihre Arbeit.
+BLEU: 0.1564
+
+--- Sample ---
+Ref: Was aber dann, fast immer, passiert ist, dass das "ta-da" zu einem "uh-oh" wird, weil das Gewicht des Marshmallows bewirkt, dass die ganze Sache sich verbiegt und einstürzt.
+Gen: Aber was wirklich passiert, ist, dass die "A-da" zu einem "oh" wird, weil das Gewicht der Marshmallow die gesamte Struktur zu packeln und zusammenzubringen bringt.
+BLEU: 0.3095
+
+--- Sample ---
+Ref: Es gibt eine Reihe von Leuten, die viel mehr "uh-oh"-Momente haben als andere, und unter den Schlechtesten sind frische BWL-Absolventen.
+Gen: Es gibt also eine Reihe von Leuten, die viel mehr "oh" Momente haben als andere, und die schlimmsten sind die jüngsten Schulabschluss.
+BLEU: 0.3494
+
+--- Sample ---
+Ref: Sie lügen, sie schummeln, sie sind verwirrt und produzieren wirklich dürftige Gebilde.
+Gen: Sie lügen, sie betrügen, sie werden abgelenkt und produzieren wirklich Lampenstrukturen.
+BLEU: 0.2122
+
+--- Sample ---
+Ref: Und natürlich gibt es auch Teams die viel mehr "ta-da"-Gebilde haben und unter den Besten sind frische Absolventen des Kindergartens.
+Gen: Und natürlich gibt es Teams, die viel mehr "Ta-da"-Strukturen haben, und unter den besten sind die jüngsten Absolventen des Kindergarten.
+BLEU: 0.3694
+
+--- Sample ---
+Ref: Und das ist ziemlich erstaunlich.
+Gen: Und es ist ziemlich erstaunlich.
+BLEU: 0.5373
+
+--- Sample ---
+Ref: Wie uns Peter erzählte produzieren sie nicht nur die höchsten Türme, sondern auch die interessantesten Strukturen von allen.
+Gen: Wie Peter uns erzählt, produzieren sie nicht nur die größten Strukturen, sondern auch die interessantesten Strukturen von allen.
+BLEU: 0.5868
+
+--- Sample ---
+Ref: Was sie vielleicht fragen werden ist: Wie kommt das? Warum? Was ist mit denen?
+Gen: Die Frage, die Sie stellen wollen ist: Wie kommen? Warum? Was ist es mit ihnen?
+BLEU: 0.2535
+
+--- Sample ---
+Ref: Und Peter erzählt: "Keines der Kinder investiert Zeit darin Chef der Spaghetti GmbH zu sein".
+Gen: Und Peter mag sagen, dass keine der Kinder irgendwelchen Zeit damit verbringen, CEO von Spaghetti, Inc. zu sein.
+BLEU: 0.1762
+

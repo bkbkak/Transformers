@@ -1,0 +1,5 @@
+{
+    "model_name": "transformer_L6_D512_H8_nopos_seed42_20251030_105135_epoch009_checkloss2.6934",
+    "average_bleu": 0.12249925703851665,
+    "total_samples": 1568
+}
