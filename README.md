@@ -18,7 +18,7 @@
 
 * **语言:** Python 3.8+
 * **核心框架:** PyTorch (推荐 1.10.x 及以上)
-* **关键依赖:** NumPy, SentencePiece, TorchText (可选, 取决于 `data.py` 的实现)
+* **关键依赖:** NumPy, SentencePiece
 
 ### 安装依赖
 
