@@ -1,0 +1,36 @@
+├── data
+│   └── en-de-data
+│       ├── IWSLT17.TED.dev2010.en-de.de.xml
+│       ├── IWSLT17.TED.dev2010.en-de.en.xml
+│       ├── IWSLT17.TED.tst2010.en-de.de.xml
+│       ├── IWSLT17.TED.tst2010.en-de.en.xml
+│       ├── train.tags.en-de.de
+│       └── train.tags.en-de.en
+├── dataset
+│   └── iwslt17_en_de.zip
+├── preprocessed
+│   ├── dev_data.pt
+│   ├── spm_bpe_8k.model
+│   ├── spm_bpe_8k.vocab
+│   ├── test_data.pt
+│   ├── train_data.pt
+│   └── vocab_info.json
+├── README.md
+├── results
+│   ├── bleu_score_transformer_L6_D768_H12_pos_seed42_20251030_105135_epoch009_checkloss1.7774.json
+│   ├── checkpoints
+│   │   ├── transformer_L6_D512_H8_pos_seed42_20251030_105110_epoch008_checkloss1.7348.p
+│   ├── generated_samples_transformer_L6_D768_H12_pos_seed42_20251030_105135_epoch009_checkloss1.7774.txt
+│   ├── transformer_L6_D256_H4_pos_seed42_20251030_105135_loss_curve_e010.png
+│   ├── transformer_L6_D256_H4_pos_seed42_20251030_105135_loss_curve_e020.png
+├── scripts
+│   ├── eval_ablations.sh
+│   ├── eval_baseline.sh
+│   ├── run_ablations.sh
+│   └── run_baseline.sh
+└── src
+    ├── data.py
+    ├── eval.py
+    ├── model.py
+    ├── train.py
+    └── utils.py
