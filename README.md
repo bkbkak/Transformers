@@ -33,18 +33,67 @@ conda activate transformer_mt
 pip install -r requirements.txt
 
 
+
+
+### 📦 数据准备 (Dataset Preparation)
+
+本项目使用 IWSLT17 英德翻译数据集。
 # 导航到 dataset 目录
 cd dataset
 
 # 解压 zip 文件到上一级的 data 目录
 # 假设 unzip 命令可用，且解压后会产生 data/en-de-data 结构
+#data/en-de-data/
+├── train.tags.en-de.en
+├── train.tags.en-de.de
+├── IWSLT17.TED.dev2010.en-de.en.xml
+├── IWSLT17.TED.dev2010.en-de.de.xml
+├── IWSLT17.TED.tst2010.en-de.en.xml
+└── IWSLT17.TED.tst2010.en-de.de.xml
+
 unzip iwslt17_en_de.zip -d ../data
+
+
 
 # 返回项目根目录
 cd ..
 
+
+###  数据预处理
+preprocessed/
+├── train_data.pt
+├── dev_data.pt
+├── test_data.pt
+├── spm_bpe_8k.model
+├── spm_bpe_8k.vocab
+└── vocab_info.json
 #  运行data.py 
 python src/data.py
+
+###项目结构 (Project Structure)
+Transformer/
+├── data/                # 原始数据
+├── preprocessed/         # 预处理结果 (tensor, vocab)
+├── src/                  # 源代码
+│   ├── model.py          # Transformer 模型定义
+│   ├── train.py          # 训练主循环
+│   ├── eval.py           # BLEU 评估
+│   ├── data.py           # 数据加载与预处理
+│   └── utils.py          # 工具函数
+├── scripts/              # 实验脚本
+│   ├── run_baseline.sh
+│   ├── run_ablations.sh
+│   ├── eval_baseline.sh
+│   └── eval_ablations.sh
+├── results/              # 模型输出与日志
+│   ├── checkpoints/
+│   ├── *.json
+│   ├── *.txt
+│   └── *.png
+└── README.md
+
+
+
 #运行基线模型
 sh scripts/run_baseline.sh
 #运行消融实验
@@ -54,10 +103,3 @@ sh scripts/eval_baseline.sh
 # 评估结果将保存在 ./results/ 目录下的 .json 和 .txt 文件中
 #评价所有消融实验的模型
 sh scripts/eval_ablations.sh
-
-
-
-
-
-
-
