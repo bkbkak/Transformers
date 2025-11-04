@@ -95,11 +95,11 @@ Transformer/
 
 
 #运行基线模型
-sh scripts/run_baseline.sh
+bash scripts/run_baseline.sh
 #运行消融实验
-sh scripts/run_ablations.sh
+bash scripts/run_ablations.sh
 #运行评估函数基线模型
-sh scripts/eval_baseline.sh
+bash scripts/eval_baseline.sh
 # 评估结果将保存在 ./results/ 目录下的 .json 和 .txt 文件中
 #评价所有消融实验的模型
-sh scripts/eval_ablations.sh
+bash scripts/eval_ablations.sh
