@@ -63,8 +63,8 @@ def parse_args():
     # Training Configuration
     parser.add_argument('--epochs', type=int, default=20, help='Number of training epochs.')
     parser.add_argument('--batch_size', type=int, default=64, help='Batch size.')
-    parser.add_argument('--data_dir', type=str, default="../preprocessed", help='Directory for preprocessed data.')
-    parser.add_argument('--save_dir', type=str, default="../results/checkpoints", help='Directory to save model checkpoints.')
+    parser.add_argument('--data_dir', type=str, default="./preprocessed", help='Directory for preprocessed data.')
+    parser.add_argument('--save_dir', type=str, default="./results/checkpoints", help='Directory to save model checkpoints.')
     parser.add_argument('--warmup_steps', type=int, default=4000, help='Number of warmup steps for Noam scheduler.')
     parser.add_argument('--log_steps', type=int, default=200, help='Log training status every N steps.')
     
