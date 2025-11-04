@@ -30,7 +30,7 @@ conda create -n transformer_mt python=3.9
 conda activate transformer_mt
 
 # 安装 PyTorch 和其他依赖
-pip install -r requirements.txt
+pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 
 
