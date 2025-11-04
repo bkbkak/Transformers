@@ -43,7 +43,7 @@ cd dataset
 
 # 解压 zip 文件到上一级的 data 目录
 # 假设 unzip 命令可用，且解压后会产生 data/en-de-data 结构
-#data/en-de-data/
+data/en-de-data/
 ├── train.tags.en-de.en
 ├── train.tags.en-de.de
 ├── IWSLT17.TED.dev2010.en-de.en.xml
