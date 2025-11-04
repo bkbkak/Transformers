@@ -1,12 +1,13 @@
 #!/bin/bash
 
+
 echo "--- 动态选择 BASELINE 最佳模型进行评估 ---"
 echo "正在使用 CUDA 设备 0 进行评估"
 export CUDA_VISIBLE_DEVICES=0
-CHECKPOINT_DIR="../results/checkpoints"
+CHECKPOINT_DIR="./results/checkpoints"
 
 # 检查 eval.py 是否存在
-if [ ! -f ../src/eval.py ]; then
+if [ ! -f ./src/eval.py ]; then
     echo "错误: 找不到 eval.py 文件。请确认文件已创建。"
     exit 1
 fi
@@ -87,7 +88,7 @@ echo "   配置: L=${NUM_LAYERS}, D=${D_MODEL}, H=${NUM_HEADS}, PosEnc=${POS_ENC
 echo "--------------------------------------------------"
 
 # 运行评估脚本
-python3 ../src/eval.py \
+python3 ./src/eval.py \
     --checkpoint_path "$FULL_PATH" \
     --num_layers "$NUM_LAYERS" \
     --d_model "$D_MODEL" \
