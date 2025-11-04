@@ -10,7 +10,7 @@ from torch.utils.data import Dataset, DataLoader
 DATA_DIR = "./data/en-de-data"
 LANG_PAIR = ("en", "de")
 VOCAB_SIZE = 8000
-SAVE_DIR = "../preprocessed"
+SAVE_DIR = "./preprocessed"
 os.makedirs(SAVE_DIR, exist_ok=True)
 
 
@@ -40,11 +40,11 @@ def load_ted_file(path):
 def read_iwslt_split(split_name):
     """读取 train/dev/test 文件"""
     if split_name == "train":
-        src_file = f"train.tags.de-en.{LANG_PAIR[0]}"
-        tgt_file = f"train.tags.de-en.{LANG_PAIR[1]}"
+        src_file = f"train.tags.en-de.{LANG_PAIR[0]}"
+        tgt_file = f"train.tags.en-de.{LANG_PAIR[1]}"
     else:
-        src_file = f"IWSLT17.TED.{split_name}.de-en.{LANG_PAIR[0]}.xml"
-        tgt_file = f"IWSLT17.TED.{split_name}.de-en.{LANG_PAIR[1]}.xml"
+        src_file = f"IWSLT17.TED.{split_name}.en-de.{LANG_PAIR[0]}.xml"
+        tgt_file = f"IWSLT17.TED.{split_name}.en-de.{LANG_PAIR[1]}.xml"
     src_lines = load_ted_file(os.path.join(DATA_DIR, src_file))
     tgt_lines = load_ted_file(os.path.join(DATA_DIR, tgt_file))
     assert len(src_lines) == len(tgt_lines), f"{split_name}: 源/目标句子数不匹配!"
