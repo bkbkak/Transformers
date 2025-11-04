@@ -16,9 +16,9 @@ def parse_args():
     
     parser.add_argument('--checkpoint_path', type=str, required=True, 
                         help='Path to the model checkpoint (.pt file) to be loaded.')
-    parser.add_argument('--data_dir', type=str, default="../preprocessed", 
+    parser.add_argument('--data_dir', type=str, default="./preprocessed", 
                         help='Directory for preprocessed data.')
-    parser.add_argument('--save_dir', type=str, default="../results", 
+    parser.add_argument('--save_dir', type=str, default="./results", 
                         help='Directory to save generated samples and results.')
     parser.add_argument('--max_len', type=int, default=100, 
                         help='Maximum sequence length for generation.')
@@ -278,5 +278,5 @@ def main():
 
 if __name__ == '__main__':
     # 确保 results 目录存在，统一管理结果
-    os.makedirs("../results", exist_ok=True) 
+    os.makedirs("./results", exist_ok=True) 
     main()
